@@ -22,6 +22,23 @@
             </InsightsFilterSettings>
           </value>
         </entry>
+        <entry key="Firebase Crashlytics">
+          <value>
+            <InsightsFilterSettings>
+              <option name="connection">
+                <ConnectionSetting>
+                  <option name="appId" value="com.androidsmsgateway" />
+                  <option name="mobileSdkAppId" value="1:794773047727:android:ca66ae60520a32440e475a" />
+                  <option name="projectId" value="httpsms-b1c2a" />
+                  <option name="projectNumber" value="794773047727" />
+                </ConnectionSetting>
+              </option>
+              <option name="signal" value="SIGNAL_UNSPECIFIED" />
+              <option name="timeIntervalDays" value="THIRTY_DAYS" />
+              <option name="visibilityType" value="ALL" />
+            </InsightsFilterSettings>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

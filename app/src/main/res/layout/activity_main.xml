@@ -17,18 +17,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_cropped"
+        app:srcCompat="@drawable/app_logo"
         tools:ignore="ImageContrastCheck" />
 
-    <TextView
-        android:id="@+id/mainAppVersion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/app_version"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+<!--    <TextView-->
+<!--        android:id="@+id/mainAppVersion"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/app_version"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/mainPhoneCard"
@@ -38,7 +38,11 @@
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:cardBackgroundColor="#f1f1f1"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="16dp">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,7 +50,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Title, secondary and supporting text -->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -88,7 +91,10 @@
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainPhoneCard">
+        app:layout_constraintTop_toBottomOf="@+id/mainPhoneCard"
+        app:cardBackgroundColor="#f1f1f1"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -96,7 +102,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- Title, secondary and supporting text -->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -174,7 +179,7 @@
             style="@style/Widget.MaterialComponents.Button.Icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#2196f3"
+            android:backgroundTint="@color/aqua_green"
             android:drawableTint="@color/white"
             android:padding="10dp"
             android:text="@string/send_heartbeat"
